@@ -38,7 +38,7 @@ cacheSolve <- function(cMatrix, ...) {
         x <- cMatrix$get()
         inv <- solve(x)
         cMatrix$setInv(inv)
-        inv     ## Return a matrix that is the inverse of 'x'
+        inv   
         
 }
 
